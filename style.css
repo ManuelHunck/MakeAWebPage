@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    font-style: normal;
+    background-color: #9d9e9e;
+}
+h3,h2 {
+    text-align: center;
+}
+.title {
+    text-align:center;
+    padding-top: 20px;
+}
+.content {
+    display: table;
+    margin: auto;
+}
+.content_list li{
+    display: inline;
+}
+.hh_header_image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.quote {
+    text-align: center;
+}
+.flex_box {
+    display: flex;
+    flex-flow: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-around;
+}
+.short_bio {
+    position: relative;
+    margin: .5em;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 25%;
+    overflow: hidden;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+}
+.short_bio list {
+    background-color: white;
+    text-align:left;
+    list-style-type:circle;
+}
+.short_bio text {
+    font-size:11px;
+}
+.short_bio p {
+    display: flow-root;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
+}
+.short_bio_image img {
+    margin: .5em;
+    position: relative;
+    width: 100%;
+    border-radius: 25%;
+    overflow: hidden;
+    border-color: black;
+    border-style: solid;
+    max-width: 300px;
+}
+.overlay_text {
+    text-align: center;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+.short_bio_image:hover .overlay_text {
+    visibility: visible;
+    opacity: 1;
+}
+.overlay_text {
+    transition: .2s;
+    transform: translateY(1em);
+}
+.certificates img {
+    border:0;
+    width:88px;
+    height:31px
+}
